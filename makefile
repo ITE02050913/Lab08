@@ -1,8 +1,8 @@
 all:
-	gcc -c PID_test.c
-	gcc -o PID_test PID_test.o
+	gcc -c Lab08.c
+	gcc -o Lab08 Lab08.o
 
 clean:
-	rm PID_test.o
-	rm PID_test
+	rm Lab08.o
+	rm Lab08
 
